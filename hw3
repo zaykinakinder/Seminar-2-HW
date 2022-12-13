@@ -1,0 +1,12 @@
+import random
+my_list = [1,2,4,5,7,4,6,2,4,4]
+orig = my_list
+length_q = len(my_list)
+print(orig)
+for i in range(length_q):
+    new_ind= random.randint(0, length_q-1)
+    tempp =orig[i]
+    my_list[i]=list[new_ind]
+    orig[new_ind]=tempp
+    print(orig)
+    break
